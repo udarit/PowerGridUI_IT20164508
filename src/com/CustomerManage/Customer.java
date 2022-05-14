@@ -8,7 +8,7 @@ public class Customer {
 			Connection con = null;
 			try
 			{
-			
+			//database connectivity
 				Class.forName("com.mysql.jdbc.Driver");
 				con= DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/pafelectricity", "root", "");
 			
